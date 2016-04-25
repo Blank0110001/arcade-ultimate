@@ -178,7 +178,7 @@ header li {
   width:200px;
   float:left;
   border-right:1px solid #e0e0e0;
-  height:40px;
+  height:100px;
 }
 
 header li:first-child a {
@@ -214,7 +214,7 @@ strong {
 
 header ul li + li + li {
   border-right:none;
-  width:200px;
+  width:89px;
 }
 
 header ul a strong {
