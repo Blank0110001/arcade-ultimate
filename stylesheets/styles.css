@@ -214,7 +214,7 @@ strong {
 
 header ul li + li + li {
   border-right:none;
-  width:89px;
+  width:200px;
 }
 
 header ul a strong {
