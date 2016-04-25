@@ -196,11 +196,11 @@ header ul a {
   display:block;
   text-align:center;
   padding-top:6px;
-  height:38px;
+  height:45px;
 }
 
 header ul a:hover {
-  color:#999;
+  color:#980;
 }
 
 header ul a:active {
