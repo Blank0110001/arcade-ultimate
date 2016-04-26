@@ -1,5 +1,5 @@
 canvas {
-  position: relative;
+  position: absolute;
   top: 30%; left: 50%;
   margin: -100px 0 0 -100px;
   background-color:#b8b8b8;
