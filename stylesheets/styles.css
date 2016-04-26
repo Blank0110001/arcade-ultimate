@@ -1,3 +1,14 @@
+canvas {
+  position:absolute;
+  padding-left:500;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color:blue;
+}
+
+
 @font-face {
   font-family: 'Noto Sans';
   font-weight: 400;
