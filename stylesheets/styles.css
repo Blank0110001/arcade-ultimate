@@ -322,3 +322,7 @@ footer {
     color:#444;
   }
 }
+#gameCanvas {
+  position:absolute;
+  padding-left:50;
+}
