@@ -321,7 +321,8 @@ footer {
     font-size:12pt;
     color:#444;
   }
-  #gameCanvas {
+}
+canvas {
   position:absolute;
   padding-left:500;
   padding-left: 0;
@@ -330,5 +331,3 @@ footer {
   margin-right: auto;
   color:blue;
 }
-}
-
