@@ -4,6 +4,9 @@ canvas {
   margin: -100px 0 0 -100px;
   background-color:#b8b8b8;
 }
+#game-title {
+  left:50%;
+}
 
 
 @font-face {
