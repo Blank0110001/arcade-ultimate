@@ -1,7 +1,7 @@
 canvas {
   position:absolute;
   top:100px;
-  left:500px;
+  left:auto;
   right:auto;
   bottom:300px;
   background-color:#b8b8b8;
