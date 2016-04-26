@@ -6,7 +6,7 @@ canvas {
 }
 #game-title {
   position: absolute;
-  left: 50%;
+  left: 0;
   color:black;
 }
 
