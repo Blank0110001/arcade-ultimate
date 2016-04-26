@@ -6,7 +6,7 @@ canvas {
 }
 #game-title {
   position: absolute;
-  right:50%;
+  left:center;
 }
 
 
