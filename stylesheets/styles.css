@@ -5,7 +5,7 @@ canvas {
   background-color:#b8b8b8;
 }
 #game-title {
-  position: center;
+  position: absolute;
   left:5%;
 }
 
