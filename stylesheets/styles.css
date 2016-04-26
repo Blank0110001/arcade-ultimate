@@ -1,5 +1,5 @@
 canvas {
-  position:relative;
+  position:static;
   top:100;
   bottom:300;
   padding-left: 0;
