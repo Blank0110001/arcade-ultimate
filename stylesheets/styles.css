@@ -1,6 +1,6 @@
 canvas {
-  position:static;
-  padding-left:500;
+  position:absolute;
+  top:200;
   color:blue;
 }
 
