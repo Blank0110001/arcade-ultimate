@@ -48,5 +48,6 @@ requestAnimationFrame(update);
 
 function render() {
     ctx.setTransform(1,0,0,1,paddleX,paddleY);
+    ctx.fillRect(-paddleX, -paddleY, 100,20);
     isDirty= false;
 }
