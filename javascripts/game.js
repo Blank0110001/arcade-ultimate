@@ -1,7 +1,7 @@
 var c = document.getElementById("gameCanvas");
 var ctx = c.getContext("2d");
 ctx.fillStyle = "#072f85";
-clr = ctx.fill();
+ptr = ctx.createPattern(canvas, 'repeat');
 ctx.fillStyle = clr;
 render();
 
