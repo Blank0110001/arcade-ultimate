@@ -28,3 +28,20 @@ window.onkeyup = function(e) {
     if (kc === 37) Keys.left = false;
     else if (kc === 39) Keys.right = false;
 };
+
+var isDirty = false;
+
+function update() {
+    if (Keys.left) {
+        paddleX+=3;
+        isDirty = true;
+    }
+    else if (Keys.right) {
+        paddleX-=3;
+        isDirty = true;
+    }
+
+    if (isDirty) render();
+    requestAnimationFrame(update);
+}
+requestAnimationFrame(update);
