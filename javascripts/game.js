@@ -5,5 +5,5 @@ ctx.fillStyle = "#072f85";
 var paddleX = 150;
 var paddleY = 400;
 
-ctx.rect(paddleY, paddleY, 100, 20);
+ctx.rect(paddleX, paddleY, 100, 20);
 ctx.fill();
