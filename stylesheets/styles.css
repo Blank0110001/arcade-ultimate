@@ -1,6 +1,6 @@
 canvas {
-  position: relative;
-  top: 50%; left: 50%;
+  position: fixed;
+  top: 30%; left: 50%;
   margin: -100px 0 0 -100px;
   background-color:#b8b8b8;
 }
