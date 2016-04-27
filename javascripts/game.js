@@ -8,13 +8,23 @@ var paddleY = 480;
 ctx.rect(paddleX, paddleY, 100, 20);
 ctx.fill();
 
-document.addEventListener('keydown', function(event) {
-    //left
-    if(event.keyCode == 37) {
-        paddleX -= 30;
-    }
-    //right
-    else if(event.keyCode == 39) {
-        paddleX+= 30;
-    }
-});
+var Keys = {
+        left: false,
+        right: false
+    };
+
+window.onkeydown = function(e) {
+    var kc = e.keyCode;
+    e.preventDefault();
+
+    if (kc === 37) Keys.left = true;
+    else if (kc === 39) Keys.right = true;
+};
+
+window.onkeyup = function(e) {
+    var kc = e.keyCode;
+    e.preventDefault();
+
+    if (kc === 37) Keys.left = false;
+    else if (kc === 39) Keys.right = false;
+};
