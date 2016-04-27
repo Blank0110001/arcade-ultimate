@@ -2,8 +2,9 @@ var c = document.getElementById("gameCanvas");
 var ctx = c.getContext("2d");
 ctx.fillStyle = "#072f85";
 ptr = ctx.createPattern(canvas, 'repeat');
-ctx.fillStyle = clr;
+ctx.fillStyle = ptr;
 render();
+
 
 var paddleX = 150;
 var paddleY = 480;
