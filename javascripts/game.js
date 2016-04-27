@@ -9,10 +9,5 @@ var paddle {
   y: 400
 }
 
-function renderPaddle(){
-    ctx.fillStyle = "#FF0000";
-    ctx.fillRect(paddle.x, paddle.y, paddle.width, paddle.height);
-}
-loop: 
-  renderPaddle();
-  
+ctx.rect(paddle.x, paddle.y, paddle.width, paddle.height);
+ctx.fill();
