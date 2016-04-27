@@ -12,11 +12,11 @@ var rightPressed = false;
 var leftPressed = false;
 var brickRowCount = 4;
 var brickColumnCount = 8;
-var brickWidth = 44.4;
+var brickWidth = 45;
 var brickHeight = 20;
-var brickPadding = 5.6;
+var brickPadding = 5;
 var brickOffsetTop = 0;
-var brickOffsetLeft = 0;
+var brickOffsetLeft = 5;
 
 var bricks = [];
 for(c=0; c<brickColumnCount; c++) {
