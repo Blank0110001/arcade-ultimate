@@ -8,7 +8,7 @@ var paddleY = 480;
 ctx.rect(paddleX, paddleY, 100, 20);
 ctx.fill();
 
-canvas.addEventListener('keydown', function(event) {
+document.addEventListener('keydown', function(event) {
     //left
     if(event.keyCode == 37) {
         paddleX -= 30;
