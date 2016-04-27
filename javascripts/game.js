@@ -11,7 +11,7 @@ var paddleX = (canvas.width-paddleWidth)/2;
 var rightPressed = false;
 var leftPressed = false;
 var brickRowCount = 4;
-var brickColumnCount = 6;
+var brickColumnCount = 8;
 var brickWidth = 40;
 var brickHeight = 20;
 var brickPadding = 5;
@@ -91,7 +91,7 @@ function drawBricks() {
                 bricks[c][r].y = brickY;
                 ctx.beginPath();
                 ctx.rect(brickX, brickY, brickWidth, brickHeight);
-                ctx.fillStyle = "#0095DD";
+                ctx.fillStyle = "#FFA500";
                 ctx.fill();
                 ctx.closePath();
             }
