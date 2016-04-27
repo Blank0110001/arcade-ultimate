@@ -11,10 +11,10 @@ ctx.fill();
 document.addEventListener('keydown', function(event) {
     //left
     if(event.keyCode == 37) {
-        paddleX -= 1;
+        paddleX -= 30;
     }
     //right
     else if(event.keyCode == 39) {
-        paddleX+= 1;
+        paddleX+= 30;
     }
 });
