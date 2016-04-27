@@ -26,7 +26,16 @@ document.addEventListener("keyup", keyUpHandler, false);
 function keyDownHandler(e) {
     if(e.keyCode == 39) {
         rightPressed = true;
-    }
+}
+    
+if(rightPressed && paddleX < canvas.width-paddleWidth) {
+    paddleX += 7;
+}
+else if(leftPressed && paddleX > 0) {
+    paddleX -= 7;
+}
+
+drawPaddle();
     else if(e.keyCode == 37) {
         leftPressed = true;
     }
