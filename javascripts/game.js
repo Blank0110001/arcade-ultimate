@@ -16,7 +16,7 @@ var brickWidth = 45;
 var brickHeight = 20;
 var brickPadding = 5;
 var brickOffsetTop = 0;
-var brickOffsetLeft = 5;
+var brickOffsetLeft = 2.5;
 
 var bricks = [];
 for(c=0; c<brickColumnCount; c++) {
