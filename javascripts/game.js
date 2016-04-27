@@ -13,3 +13,8 @@ function renderPaddle(){
     ctx.fillStyle = "#FF0000";
     ctx.fillRect(paddle.x, paddle.y, paddle.width, paddle.height);
 }
+function run(){
+    renderPaddle();
+}
+
+setInterval(run, 10);
