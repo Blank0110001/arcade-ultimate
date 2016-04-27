@@ -14,7 +14,7 @@ var brickRowCount = 4;
 var brickColumnCount = 6;
 var brickWidth = 40;
 var brickHeight = 20;
-var brickPadding = 10;
+var brickPadding = 5;
 var brickOffsetTop = 0;
 var brickOffsetLeft = 0;
 
@@ -75,6 +75,20 @@ function drawBricks() {
         }
     }
 }
+function collisionDetection() {
+    for(c=0; c<brickColumnCount; c++) {
+        for(r=0; r<brickRowCount; r++) {
+            var b = bricks[c][r];
+            if(b.status == 1) {
+                if(x > b.x && x < b.x+brickWidth && y > b.y && y < b.y+brickHeight) {
+                    dy = -dy;
+                    b.status = 0;
+                }
+            }
+        }
+    }
+}
+
 
 function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
