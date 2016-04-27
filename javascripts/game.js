@@ -3,6 +3,10 @@ var ctx = c.getContext("2d");
 ctx.fillStyle = "#072f85";
 ptr = ctx.createPattern(canvas, 'repeat');
 ctx.fillStyle = ptr;
+
+canvas.width = 400;
+canvas.height = 500;
+
 render();
 
 
