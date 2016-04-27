@@ -8,5 +8,6 @@ var object {
   x: 150,
   y: 400
 }
-ctx.rect( object.x, object.y, 100, 20);
+
+ctx.fillRect( object.x, object.y, 100, 20);
 ctx.fill();
