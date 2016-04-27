@@ -56,3 +56,10 @@ if(rightPressed) {
 else if(leftPressed) {
     paddleX -= 7;
 }
+
+function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    drawPaddle();
+}
+
+setInterval(draw, 10);
