@@ -15,7 +15,7 @@ var brickColumnCount = 8;
 var brickWidth = 45;
 var brickHeight = 20;
 var brickPadding = 5;
-var brickOffsetTop = 180;
+var brickOffsetTop = 200;
 var brickOffsetLeft = 2.5;
 
 var bricks = [];
