@@ -14,7 +14,24 @@
     <![endif]-->
   </head>
   <body>
-    <a href="#breakout">Breakout</a>
+    <a href='linkhref.html' id='mylink'>click me</a>
+
+<script type="text/javascript">
+
+var myLink = document.getElementById('mylink');
+
+myLink.onclick = function(){
+
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "javascripts/game.js."; 
+    document.getElementsByTagName("head")[0].appendChild(script);
+    return false;
+
+}
+
+
+</script>
     <canvas id="gameCanvas" width="400" height="500" style="border:1px solid #000000;">
       </canvas>
     <div class="wrapper">
@@ -39,6 +56,5 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    <script src="javascripts/game.js" id="breakout"></script>
-  </body>
+    </body>
 </html>
