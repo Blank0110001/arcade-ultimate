@@ -77,7 +77,7 @@ function drawBall(){
 function drawPaddle(){
 	ctx.beginPath();
 	ctx.rect(paddleX,canvas.height-paddleHeight,paddleWidth,paddleHeight);
-	ctx.fillstyle="#0095DD";
+	ctx.fillstyle="#000000";
 	ctx.fill();
 	ctx.closePath();
 	}
@@ -139,10 +139,10 @@ function draw(){
     }
 	if(rightPressed && paddleX<canvas.width-paddleWidth){
 		
-		paddleX+=4;
+		paddleX+=7;
 		}
 	 else if(leftPressed && paddleX>0 ){
-		 paddleX-=4;
+		 paddleX-=7;
 		 
 		 }
 		 
